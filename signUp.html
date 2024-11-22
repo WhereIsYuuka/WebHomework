@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册界面</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<style>
+		body, html {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			overflow: hidden;
+		}
+		#bg-video {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			z-index: -1;
+			transform: translate(-50%, -50%);
+			background-size: cover;
+		}
+	</style>
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/signUp.css">
+</head>
+
+<body>
+    <video id="bg-video" autoplay muted loop>
+        <source src="video\是老师的话，侧面也没问题吧....mp4" type="video/mp4">
+        您的浏览器不支持 HTML5 视频标签。
+    </video>
+	<nav >
+		<ul>
+			<a href="index.html" class="site-name" ><span class="site-name-font">Iochi<span style="color: black;">Mari</span></span></a>
+			<img id="logo" src="img/IochiMari_Logo.png" alt="">
+			<li> <a href="index.html" name="a1">首页</a></li>
+			<li> <a href="li.html" name="a1">看看图图</a></li>
+			<li> <a href="myinf.html">关于玛丽</a></li>
+		</ul>
+		<a href="signUp.html" id="signup">注册</a>
+		<a href="logIn.html" id="signin">登录</a>
+		<div class="sc">
+			<input type="text" class="search" placeholder="Learn more from Mari">
+			<li class="searchIcon" ></li>
+		</div>
+	</nav>
+	<div class="main">
+		<div class="cont">
+			
+			<div class="top">
+				<h1>欢迎来到玛丽的频道</h1>
+				<!-- <p class="lead">The best way to watch, enjoy, and download video sourses.</p> -->
+			</div>
+			<div class="create">
+				<h2>创建你的个人账户</h2>
+				<h3>用户名</h3>
+				<input type="text" placeholder="用户名">
+				<!-- <p>This will be your username — you can enter your organization’s username next.</p> -->
+				<h3>邮箱地址</h3>
+				<input type="text" placeholder="邮箱地址">
+				<!-- <p>You will occasionally receive account related emails. We promise not to share your email with anyone</p> -->
+				<h3>密码</h3>
+				<input type="text" placeholder="密码">
+				<p>至少使用一个小写字母、一个数字和七个字符。</p>
+				<hr style="width: 70%;">
+				<!-- <p>By clicking on "Create an account" below, you are agreeing to the Terms of Service and the Privacy Policy.</p> -->
+				<button type="summit">创建账户</button>
+			</div>
+			<div class="right">
+				<h3 style="padding: 5px;">你会喜欢上玛丽的</h3>
+				<ul class="ul1" style="border-top: 1px solid #CEC8C8; list-style: none; border-bottom: 1px solid #cecbc8; padding: 5px;">
+					<li><b><span class="custom-color">玛丽</span></b> 是如此的可爱</li>
+					<li><b><span class="custom-color">玛丽</span></b> 是如此的富有魅力</li>
+				</ul>
+				<ul style="list-style-image: url(http://i4.buimg.com/1949/cc6f7ecdfd09c948.png);">
+					<li><span class="custom-color">玛丽</span>说话，我倾听</li>
+					<li><span class="custom-color">玛丽</span>提问，我对答</li>
+					<li><span class="custom-color">玛丽</span>命令，我服从</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
